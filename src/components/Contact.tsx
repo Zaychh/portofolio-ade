@@ -11,9 +11,9 @@ gsap.registerPlugin(ScrollTrigger)
 const socials = [
   {
     name: 'GitHub',
-    handle: '@usernamemu',
+    handle: '@Zaychh',
     desc: 'Lihat source code & project open source',
-    url: 'https://github.com/usernamemu',
+    url: 'https://github.com/Zaychh',
     glow: '#ffffff',
     bg: 'from-[#161616] to-[#0d0d0d]',
     icon: (
@@ -24,9 +24,9 @@ const socials = [
   },
   {
     name: 'Discord',
-    handle: 'usernamemu',
+    handle: 'iwantfluoxetine',
     desc: 'Chat langsung & diskusi project bareng',
-    url: 'https://discord.com/users/usernamemu',
+    url: 'https://discord.com/users/1161652828192903210',
     glow: '#5865F2',
     bg: 'from-[#1a1b2e] to-[#0f1017]',
     icon: (
@@ -37,9 +37,9 @@ const socials = [
   },
   {
     name: 'Instagram',
-    handle: '@usernamemu',
+    handle: '@igotmelancholia_',
     desc: 'Behind the scenes & karya visual',
-    url: 'https://instagram.com/usernamemu',
+    url: 'https://instagram.com/igotmelancholia_',
     glow: '#E1306C',
     bg: 'from-[#1e0f17] to-[#0f0a0d]',
     icon: (
@@ -50,9 +50,9 @@ const socials = [
   },
   {
     name: 'TikTok',
-    handle: '@usernamemu',
+    handle: '@orbitalstrike1',
     desc: 'Short video & konten kreatif',
-    url: 'https://tiktok.com/@usernamemu',
+    url: 'https://tiktok.com/@orbitalstrike1',
     glow: '#69C9D0',
     bg: 'from-[#0f1a1b] to-[#090f10]',
     icon: (
