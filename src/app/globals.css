@@ -13,3 +13,19 @@
   --font-serif: var(--font-cormorant), 'Cormorant Garamond', serif;
   --font-sans:  var(--font-dm-sans), 'DM Sans', sans-serif;
 }
+
+/* keyframes */
+@keyframes floatGame {
+  0%   { transform: translateY(0px); }
+  100% { transform: translateY(-8px); }
+}
+
+@keyframes floatBubble {
+  0%   { transform: translateY(0px) scale(1); opacity: 0.5; }
+  100% { transform: translateY(-30px) scale(1.05); opacity: 0.9; }
+}
+
+@keyframes toastIn {
+  from { opacity:0; transform:translateX(-50%) translateY(20px); }
+  to   { opacity:1; transform:translateX(-50%) translateY(0); }
+}

@@ -85,11 +85,11 @@ export default function About() {
           {/* Bio */}
           <div>
             <h2 className="font-serif text-charcoal text-5xl font-light leading-tight mb-4">
-              Halo, saya <span className="text-gold italic">Ade Tirtha Wieyasha</span>
+              Halo, saya <span className="text-gold italic">Adenatha Zauzi Magria</span>
             </h2>
             <p className="font-sans text-muted text-base leading-relaxed max-w-lg">
               Seorang programmer yang passionate dalam menciptakan pengalaman
-              digital yang bermakna. Berbasis di Surabaya, Jawa Timur, saya percaya
+              digital yang bermakna. Berasal dari Surabaya, Jawa Timur, saya percaya
               bahwa desain dan teknologi yang baik bisa mengubah cara orang
               berinteraksi dengan dunia.
             </p>

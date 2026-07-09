@@ -37,9 +37,9 @@ const socials = [
   },
   {
     name: 'Instagram',
-    handle: '@igotmelancholia_',
+    handle: '@iwantfluoxetine',
     desc: 'Behind the scenes & karya visual',
-    url: 'https://instagram.com/igotmelancholia_',
+    url: 'https://instagram.com/iwantfluoxetine',
     glow: '#E1306C',
     bg: 'from-[#1e0f17] to-[#0f0a0d]',
     icon: (
@@ -50,9 +50,9 @@ const socials = [
   },
   {
     name: 'TikTok',
-    handle: '@orbitalstrike1',
+    handle: '@Aigrid',
     desc: 'Short video & konten kreatif',
-    url: 'https://tiktok.com/@orbitalstrike1',
+    url: 'https://tiktok.com/@djarumespresso0',
     glow: '#69C9D0',
     bg: 'from-[#0f1a1b] to-[#090f10]',
     icon: (
@@ -197,7 +197,7 @@ export default function Contact() {
             <div className="flex-1 h-px bg-gradient-to-l from-transparent to-gold/20" />
           </div>
           <p className="font-sans text-muted/30 text-[10px] tracking-[0.3em] uppercase">
-            Portofolio Ade Tirtha Wieyasha · {new Date().getFullYear()}
+            Portofolio Adenatha Zauzi Magria · {new Date().getFullYear()}
           </p>
         </div>
 

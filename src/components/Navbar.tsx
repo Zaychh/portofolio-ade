@@ -3,6 +3,7 @@ import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
 import Image from 'next/image'
 import { useEffect, useRef, useState } from 'react'
+import { useRouter } from 'next/navigation'
 import Profil from '../../public/image/profil.png'
 
 const navLinks = [
@@ -21,6 +22,7 @@ export default function Navbar() {
   const [scrolled,      setScrolled] = useState(false)
   const [activeSection, setActive]   = useState('#hero')
   const [menuOpen,      setMenuOpen]  = useState(false)
+  const router = useRouter()
   const container = useRef(null)
 
   // ── Scroll listener ─────────────────────────────────────────────
@@ -123,7 +125,7 @@ export default function Navbar() {
             return (
               <button
                 key={link.href}
-                onClick={() => scrollTo(link.href)}
+                onClick={() => router.push('/hobby')}
                 className="relative font-sans text-xs tracking-widest uppercase px-4 py-2 rounded-sm transition-all duration-300"
                 style={{ color: isActive ? '#C9A84C' : '#6B6B6B' }}
                 onMouseEnter={e => { if (!isActive) (e.currentTarget as HTMLElement).style.color = '#F5F0E8' }}
